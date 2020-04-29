@@ -403,7 +403,7 @@ Remise des devoirs 4, 5 et 6
 
 Le cours utilise la grille d'évaluation standard de l'UQAM définie dans RESULTATS. La note de passage est de 50%.
 
-![](resources\plan_echelle.png)
+![](resources/plan_echelle.png)
 
 ## Bibliographie
 
