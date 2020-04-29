@@ -88,7 +88,9 @@ Attention, INF5153 (et la conception de logiciel en général) est un cours diff
 "_Je connais pas les autres_"
 </td>
 <td>
+
 >![](resources/semaine1_honey.png)
+
 </td>
 </tr>
 </table>
@@ -121,13 +123,13 @@ Comme l'évaluation du travail de session se fera sous forme de présentation, j
 
 > "_On time, on specs, on budget._"
 
-![](resources/semaine1_programmer_simple.png)
+![](resources\semaine1_programmer_simple.png)
 
 Si vous avez besoin de créer un script pour aller extraire les images d'une page Web, ou si vous voulez créer un logiciel pour rouler des jets de dés, il n'y a rien de compliqué à ça; pas besoin de génie logiciel. On parle de génie logiciel lorsqu'on a affaire à des logiciels de grande envergure : un système de gestion de paie d'entreprise, un navigateur Web, un logiciel de traitement de texte. De plus, en entreprise, il y a toujours une date de remise qui approche, et plusieurs projets à jongler; tout devient plus complexe.
 
 C'est pourquoi on travaille alors avec de plus grandes équipes, où les membres occupent des rôles différentes, comme développeur, testeur, architecte logiciel, etc.
 
-![](resources/semaine1_mario.png)
+![](resources\semaine1_mario.png)
 
 En ce moment, vous avez appris à programmer. Vous êtes certainement capables de prendre une spécification claire et la transformer en programme fonctionnel. En maîtrisant le génie logiciel, vous apprendrez à _développer_ des logiciel pour qu'ils soient compréhensibles, testables, maintenables, conviviaux et selon les critères voulus par les utilisateurs. La différence entre un _programmeur_ et un _développeur_ est la qualité des produits développés.
 
@@ -137,14 +139,14 @@ En ce moment, vous avez appris à programmer. Vous êtes certainement capables d
 
 Lorsqu'on parle de logiciel de taille non-triviale; les logiciels qu'on voient souvent apparaître en contexte d'entreprise, on ne parle pas de seulement quelques milliers de lignes de code.
 
-![Exemple “simple” : un navigateur internet comme Firefox](resources/semaine1_firefox.png)
+![Exemple “simple” : un navigateur internet comme Firefox](resources\semaine1_firefox.png)
 
-![](resources/semaine1_firefox_stats1.png)
+![](resources\semaine1_firefox_stats1.png)
 
-![](resources/semaine1_firefox_stats2.png)
-![](resources/semaine1_firefox_stats3.png)
+![](resources\semaine1_firefox_stats2.png)
+![](resources\semaine1_firefox_stats3.png)
 
-![](resources/semaine1_firefox_stats4.png)
+![](resources\semaine1_firefox_stats4.png)
 
 Le navigateur Mozilla Firefox est un projet comportant plus de 20 millions lignes de code, une quinzaine de langages de programmations différents.
 
@@ -152,13 +154,13 @@ Il devient clair alors qu'il est complètement impossible d'avoir une compréhen
 
 C'est à ces réponses que le génie logiciel veut répondre.
 
-![](resources/semaine1_legocaptain.png)
+![](resources\semaine1_legocaptain.png)
 
 #### Et l'analyse alors?
 
 > _Le client **exprime ses besoins**, exigences et spécifications dans un **cahier des charges formalisé** qui permet au développeur de **livrer un produit conforme** en tout point à ce qui est attendu par celui-ci._
 
-![](resources/semaine1_chat.png)
+![](resources\semaine1_chat.png)
 
 Dans la "vraie vie", on est souvent rendu à devoir travailler avec un ensemble de récits utilisateurs mal fichus, et à devoir faire avec!
 
@@ -170,7 +172,7 @@ Voici un exercice que vous pouvez faire : écrivez des spécifications en texte 
 
 Une fois que ce sera fait, continuez à lire.
 
-![](resources/semaine1_fruits.png)
+![](resources\semaine1_fruits.png)
 
 &nbsp;
 
@@ -213,7 +215,7 @@ Est-ce que vos spécifications couvraient tous ces critères?
 
 Lorsque vous avez un projet à faire avec des spécifications qui vous sont données, la première étape est de clarifier les points qui sont flous ou qui semblent porter à confusion. Le manque de communication est la cause numéro un d'échec de projets en entreprise.
 
-![](resources/semaine1_pont_tunnel.png)
+![](resources\semaine1_pont_tunnel.png)
 
 #### Les modèles à la rescousse
 
@@ -230,14 +232,14 @@ Les diagrammes UML ont été inventé dans un but bien précis : permettre de co
     #include <stdio.h>
     #include <string.h>
     char *d =
-    "@n'+,#'/*{}w+/w#cdnr/+,{}r/*de}+,/*{*+,/w{%+,/w#q#n+,/#{l+,/n{n+,/+#n+,/#/
-    ;#q#n+,/+k#;*+,/'r :'d*'3,}{w+K w'K:'+}e#';dq#'l /
-    q#'+d'K#!/+k#;q#'r}eKK#}w'r}eKK{nl]'/#;#q#n'){)#}w'){){nl]'/+#n';d}rw' i;# /
-    ){nl]!/n{n#'; r{#w'r nc{nl]'/#{l,+'K {rw' iK{;[{nl]'/w#q#n'wk nw' /
-    iwk{KK{nl]!/w{%'l##w#' i; :{nl]'/*{q#'ld;r'}{nlwb!/*de}'c /
-    ;;{nl'-{}rw]'/+,}##'*}#nc,',#nw]'/+kd'+e}+;#'rdq#w! nr'/ ') }+}{rl#'{n' ')# /
+    "@n'+,#'/*{}w+/w#cdnr/+,{}r/*de}+,/*{*+,/w{%+,/w#q#n+,/#{l+,/n{n+,/+#n+,/#\
+    ;#q#n+,/+k#;*+,/'r :'d*'3,}{w+K w'K:'+}e#';dq#'l \
+    q#'+d'K#!/+k#;q#'r}eKK#}w'r}eKK{nl]'/#;#q#n'){)#}w'){){nl]'/+#n';d}rw' i;# \
+    ){nl]!/n{n#'; r{#w'r nc{nl]'/#{l,+'K {rw' iK{;[{nl]'/w#q#n'wk nw' \
+    iwk{KK{nl]!/w{%'l##w#' i; :{nl]'/*{q#'ld;r'}{nlwb!/*de}'c \
+    ;;{nl'-{}rw]'/+,}##'*}#nc,',#nw]'/+kd'+e}+;#'rdq#w! nr'/ ') }+}{rl#'{n' ')# \
     }'+}##(!!/";
-    char *s = "!ek;dc i@bK'(q)-[w]*%n+r3#l,{}:/nuwloca-O;m .vpbks,fxntdCeghiry";
+    char *s = "!ek;dc i@bK'(q)-[w]*%n+r3#l,{}:\nuwloca-O;m .vpbks,fxntdCeghiry";
     int exec(int t, int _, char *a)
     {
     if (t < 0) { while (t++ < 0) { a = 1 + index(a, '/'); }; return exec(0, _,
@@ -301,7 +303,9 @@ and a partridge in a pear tree.
 …
 </td>
 <td>
-![](resources/semaine1_twelve_days.png)
+
+![](resources\semaine1_twelve_days.png)
+
 </td>
 </tr>
 </table>
@@ -368,7 +372,7 @@ Lorsqu'on conçoit un logiciel, il faut prendre des décisions quant aux caract�
 
 Il est impossible de faire un logiciel parfait sous toutes les dimensions. Parfois on devra sacrifier de la maintenabilité pour obtenir de la performance, ou de la convivialité pour gagner du temps. C'est à l'architecte logiciel et au chargé de projet de prendre les meilleures décisions par rapport à ces facteurs.
 
-![](resources/semaine1_venn.png)
+![](resources\semaine1_venn.png)
 
 ## Section 3 - Principes de Génie Logiciel
 
@@ -378,21 +382,21 @@ Le principe de base du génie logiciel est d'insister sur le "**quoi**" plutôt 
 
 ##### Un peu de vocabulaire
 
-![](resources/semaine1_vocabulaire.png)
+![](resources\semaine1_vocabulaire.png)
 
 Lorsqu'on parle de valeur, on ne parle pas nécessairement de fonctionalité (_features_). Les choix de conception sont invisible aux utilisateurs mais ont définitivement une valeur dans un logiciel. C'est ces choix qui auront un effet sur la facilité avec laquelle vous allez pouvoir faire évoluer votre logiciel (maintenabilité) et la quantité de bogues qu'il contiendra.
 
 Dans le langage du génie logiciel, lorsqu'on parle d'une mauvaise conception qui n'a pas d'impact visible sur l'utilisateur, on utilisera le terme "dette technique". Concrètement, la dette technique est une métrique qui représente l'effort de programmation nécessaire pour que le logiciel soit considéré "bien conçu". Chaque mauvaise décision de conception ajoute à la dette technique, et cette dette grandit le plus vite au début du développement d'un logiciel.
 
-![Exemple d'analyse statique de la dette technique avec l'outil SonarQube](resources/semaine1_dette.png)
+![Exemple d'analyse statique de la dette technique avec l'outil SonarQube](resources\semaine1_dette.png)
 
-![](resources/semaine1_normal_dette.png)
+![](resources\semaine1_normal_dette.png)
 
 #### Refactoring
 
 Lorsqu'un logiciel est dans un état où son évolution devient difficile (lire : son code est trop spaghetti), il faut considerer le réusiner (faire du "_refactoring_"). Le refactoring n'ajoute pas de valeur immédiate pour les utilisateurs du logiciel, alors il est parfois difficile de justifier dans le câdre d'un projet d'entreprise d'investir du temps sur cette tâche. C'est pourquoi il est important de prioriser les tâches de refactoring pour effectuer les plus importantes en premier au cas où on manquerait de budget ou de temps pour tout faire. 
 
-![](resources/semaine1_ordre_dette.png)
+![](resources\semaine1_ordre_dette.png)
 
 L'ordre recommandé est de commencer par la partie la plus compliquée et qui ajoute le plus de valeur. C'est évident qu'on cherche le plus de valeur, mais pourquoi la plus compliquée? Dans un projet, les coûts et les risques d'effectuer des changements augmentent plus le projet progresse. On veut régler les problèmes les plus complexe le plus tôt possible pour minimiser les risques d'impacts sur le reste du projet (et éviter qu'on ait à refaire du travail qu'on a déjà fait!).
 
@@ -448,7 +452,7 @@ Nous verrons des applications de ces principes tout au long de la session et pou
 
 Il est important de tester son code et les tests unitaires sont l'outil le plus important pour ce faire. Rappelez-vous la loi de Murphy : si quelque chose doit planter, ça va se faire au pire moment possible (probablement durant votre présentation de projet de session ;).
 
-![](resources/semaine1_bugs.png)
+![](resources\semaine1_bugs.png)
 
 ## Section 4 - Langage de modélisation (UML)
 
@@ -469,7 +473,7 @@ UML a été inventé dans les années 90 parce qu'il y avait une pléthore de no
 
 L'entreprise Rationale a commercialisé le langage UML qui est devenu le langage universel en industrie et en recherche pour modéliser des concepts orienté-objet. L'UML est moins utilisé lorsqu'on parle d'autres paradigmes pour toutes sortes de raisons (qu'on pourra discuter en classe si ça vous intéresse!).
 
-![](resources/semaine1_uml_lotr.png)
+![](resources\semaine1_uml_lotr.png)
 
 UML vient avec une panoplie de différents types de diagrammes :
 
@@ -493,11 +497,11 @@ Les diagrammes qui seront les plus utilisés dans ce cours sont les diagrammes d
 
 ##### Diagramme d'objets
 
-![](resources/semaine1_uml_objet.png)
+![](resources\semaine1_uml_objet.png)
 
 Il existe certains langages, comme PlantUML, qui facilitent la création de diagrammes UML :
 
-![](resources/semaine1_plantuml_objets.png)
+![](resources\semaine1_plantuml_objets.png)
 
     object "_: Library" as L
     
@@ -527,7 +531,7 @@ Il existe certains langages, comme PlantUML, qui facilitent la création de diag
   
 ##### Diagramme de classes
   
-![](resources/semaine1_plantuml_classes.png)
+![](resources\semaine1_plantuml_classes.png)
 
     class Library {
         + addBook(b: Book)
@@ -548,11 +552,11 @@ Il existe certains langages, comme PlantUML, qui facilitent la création de diag
     
     Book "1..*" -- "1..*" Author
     
-    Library *--> "0..*/ncontents" Book
+    Library *--> "0..*\ncontents" Book
 
 ##### Diagramme de séquencement
 
-![](resources/semaine1_plantuml_sequence.png)
+![](resources\semaine1_plantuml_sequence.png)
 
     actor "Student" as S
     
@@ -601,11 +605,11 @@ Les 5 premiers livres de la saga Harry Potter sont à vendre dans une librairie.
 
 Il faut concevoir un programme qui reçoit en entrée une liste de livres et qui retourne le prix total incluant les rabais applicables.
 
-![](resources/semaine1_hp_calcul.png)
+![](resources\semaine1_hp_calcul.png)
 
 Attention par contre, un rabais peut s'appliquer plus d'une fois sur la même liste d'articles!
 
-![](resources/semaine1_hp_piege.png)
+![](resources\semaine1_hp_piege.png)
 
 #### À faire
 
