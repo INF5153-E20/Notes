@@ -80,27 +80,15 @@ Travail 2 - Poker
 </tr>
 
 <tr>
-<td>05-18</td>
-<td>06-15</td>
+<td>07-13</td>
+<td>08-10</td>
 <td>
 
 Travail 3
 
 </td>
-<td>Maîtriser le polymorphisme</td>
-<td>10%</td>
-</tr>
-
-<tr>
-<td>07-13</td>
-<td>08-10</td>
-<td>
-
-Travail 4
-
-</td>
 <td>Utiliser les patrons de conception</td>
-<td>5%</td>
+<td>10%</td>
 </tr>
 
 <tr>
@@ -108,19 +96,7 @@ Travail 4
 <td>08-10</td>
 <td>
 
-Travail 5
-
-</td>
-<td>Utiliser les patrons de conception</td>
-<td>5%</td>
-</tr>
-
-<tr>
-<td>07-27</td>
-<td>08-10</td>
-<td>
-
-Travail 6
+Travail 4
 
 </td>
 <td>Expérimenter avec des principes avancés</td>
@@ -148,7 +124,7 @@ Projet de session - Phase 2
 
 </td>
 <td>Appliquer un changement majeur à un logiciel</td>
-<td>20%</td>
+<td>30%</td>
 </tr>
 
 
@@ -156,7 +132,7 @@ Projet de session - Phase 2
 
 Pour les travaux et le projet de session, le rendu se fera à travers la plateforme [Github Classroom](https://github.com/INF5153-E20/Travaux). Les dépôts de code seront clônés automatiquement par un script, et tout travail non rendu via ce biais ou hors délais ne sera pas évalué. La couverture _fonctionnelle_ de vos travaux est automatiquement vérifiée par la bonne exécution de scénarios de tests unitaires.
 
-Il n'y aura pas d'examen durant cette session. À la place, les travaux 1 à 6 couvriront l'essentiel de la matière en vous demandant d'appliquer les concepts vus dans les notes de cours et en classe. Les pondérations réflètent la difficulté et niveau d'effort relatif de chaque travail.
+Il n'y aura pas d'examen durant cette session. À la place, les travaux 1 à 4 couvriront l'essentiel de la matière en vous demandant d'appliquer les concepts vus dans les notes de cours et en classe. Les pondérations réflètent la difficulté et niveau d'effort relatif de chaque travail.
 
 Le projet de session est à faire en équipe (3 ou 4 personnes). L'évaluation se fera par le biais de présentations de chacune des équipes. Les présentations sont à huis clos. La correction tiendra compte du nombre de membres des équipes. **Un dépôt du code complet du projet devra aussi être déposé sur Github**.
 
@@ -226,11 +202,7 @@ Travail 2 - Poker
 Composition _versus_ Héritage, Tests
 
 </td>
-<td>
-
-Travail 3
-
-</td>
+<td></td>
 </tr>
 
 <tr>
@@ -280,7 +252,7 @@ Séance de travail
 </td>
 <td>
 
-Remise des devoirs 1, 2 et 3
+Remise des travaux 1 et 2
 
 </td>
 </tr>
@@ -336,7 +308,7 @@ Patrons de conception (maître)
 </td>
 <td>
 
-Travail 4
+Travail 3
 
 </td>
 </tr>
@@ -351,7 +323,7 @@ Travail 4
 </td>
 <td>
 
-Travail 5
+Travail 4
 
 </td>
 </tr>
@@ -377,8 +349,9 @@ Code as a crime scene
 Présentations
 
 </td>
-Présentation de la phase 2
 <td>
+
+Présentation de la phase 2
 
 </td>
 </tr>
@@ -393,7 +366,7 @@ Séance de travail
 </td>
 <td>
 
-Remise des devoirs 4, 5 et 6
+Remise des travaux 3 et 4
 
 </td>
 </tr>
