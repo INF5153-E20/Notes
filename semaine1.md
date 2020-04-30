@@ -601,7 +601,7 @@ Voici qui conclu l'introduction au cours. Les concepts abordés cette semaine se
 
 La semaine prochaine, nous aborderons les principes d'encapsulation, types et interfaces.
 
-Le première partie du travail 1 est présentement disponible sur le ![Github du cours](https://github.com/INF5153-E20/Notes/blob/master/travail1.md). La partie 2 sera disponible à partir de la semaine prochaine. Je vous conseille de ne pas tarder avant de commencer les travaux pour éviter de vous retrouver avec trop de travail à faire en même temps à la mi-session!
+Le première partie du travail 1 est présentement disponible sur le [Github du cours](https://github.com/INF5153-E20/Notes/blob/master/travail1.md). La partie 2 sera disponible à partir de la semaine prochaine. Je vous conseille de ne pas tarder avant de commencer les travaux pour éviter de vous retrouver avec trop de travail à faire en même temps à la mi-session!
 
 
 Bonne chance et à la semaine prochaine!
