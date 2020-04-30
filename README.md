@@ -60,7 +60,7 @@ Les notes de cours seront mises à disposition au fur et à mesure sur le [Githu
 <td>06-15</td>
 <td>
 
-Travail 1
+[Travail 1](https://github.com/INF5153-E20/Notes/blob/master/travail1.md)
 
 </td>
 <td>Comprendre l'utilité de la conception et gérer du code légataire.</td>
@@ -150,7 +150,7 @@ Les travaux et projets sont placés de façon à balancer la charge de travail a
 </td>
 <td>
 
-Travail 1 - [Code Kata : Harry Potter](https://classroom.github.com/a/jNioVm29)
+[Travail 1](https://github.com/INF5153-E20/Notes/blob/master/travail1.md) - [Code Kata : Harry Potter](https://classroom.github.com/a/jNioVm29)
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ Encapsulation, Types et Interfaces
 </td>
 <td>
 
-Travail 1 - Poker
+[Travail 1](https://github.com/INF5153-E20/Notes/blob/master/travail1.md) - Poker
 
 </td>
 </tr>
