@@ -60,7 +60,7 @@ Les notes de cours seront mises à disposition au fur et à mesure sur le [Githu
 <td>06-15</td>
 <td>
 
-Travail 1 - Code Kata : Harry Potter
+[Travail 1 - Code Kata : Harry Potter](https://classroom.github.com/classrooms/64423452-inf5153-e20/assignments/travail-1)
 
 </td>
 <td>Comprendre l'utilité de la conception</td>
@@ -174,7 +174,7 @@ Les travaux et projets sont placés de façon à balancer la charge de travail a
 </td>
 <td>
 
-Travail 1 - Code Kata : Harry Potter
+[Travail 1 - Code Kata : Harry Potter](https://classroom.github.com/classrooms/64423452-inf5153-e20/assignments/travail-1)
 
 </td>
 </tr>
