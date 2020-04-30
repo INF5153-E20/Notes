@@ -14,7 +14,7 @@ Un des objectifs de ce cours est de démystifier le Génie Logiciel comme étant
 
 Mon nom est William Flageol, je suis un nouvel enseignant engagé à l'UQAM il y a deux jours à la date d'écriture de ces notes. Je suis aussi enseignant à l'UQTR et étudiant au doctorat en Génie Logiciel à l'Université Concordia.
 
-Mon sujet de recherche porte sur la relation entre les fonctionalités et paradigmes supportés par un langage de programmation et l'implémentation des patrons de conception orientés objet.
+Mon sujet de recherche porte sur la relation entre les fonctionnalités et paradigmes supportés par un langage de programmation et l'implémentation des patrons de conception orientés objet.
 
 De plus, j'ai une dizaine d'années d'expérience dans l'industrie en tant que développeur et architecte logiciel. Voici un aperçu des endroits où j'ai travaillé :
 
@@ -387,7 +387,7 @@ Le principe de base du génie logiciel est d'insister sur le "**quoi**" plutôt 
 
 ![](resources/semaine1_vocabulaire.png)
 
-Lorsqu'on parle de valeur, on ne parle pas nécessairement de fonctionalité (_features_). Les choix de conception sont invisible aux utilisateurs mais ont définitivement une valeur dans un logiciel. C'est ces choix qui auront un effet sur la facilité avec laquelle vous allez pouvoir faire évoluer votre logiciel (maintenabilité) et la quantité de bogues qu'il contiendra.
+Lorsqu'on parle de valeur, on ne parle pas nécessairement de fonctionnalité (_features_). Les choix de conception sont invisible aux utilisateurs mais ont définitivement une valeur dans un logiciel. C'est ces choix qui auront un effet sur la facilité avec laquelle vous allez pouvoir faire évoluer votre logiciel (maintenabilité) et la quantité de bogues qu'il contiendra.
 
 Dans le langage du génie logiciel, lorsqu'on parle d'une mauvaise conception qui n'a pas d'impact visible sur l'utilisateur, on utilisera le terme "dette technique". Concrètement, la dette technique est une métrique qui représente l'effort de programmation nécessaire pour que le logiciel soit considéré "bien conçu". Chaque mauvaise décision de conception ajoute à la dette technique, et cette dette grandit le plus vite au début du développement d'un logiciel.
 
@@ -616,13 +616,59 @@ Attention par contre, un rabais peut s'appliquer plus d'une fois sur la même li
 
 #### À faire
 
-Heureusement pour vous, j'ai déjà conçu la structure du programme en classe durant la première séance. Tout ce qui vous reste à faire est à implémenter les classes concrètes pour que tout fonctionne. 
+Heureusement, nous avons déjà conçu la structure du programme en classe durant la première séance. Tout ce qui vous reste à faire est à implémenter les méthodes manquantes pour que tout fonctionne. 
+
+Voici le graphe UML de la structure montée en classe :
+
+![](resources/semaine1_hp_uml.png)
+
+    class Book {
+        - bookNb: int
+        + new(nb: int)
+        + equals(o: Object)
+    }
+
+    class Basket {
+        + new(books: Book[])
+        + howMany(b: Book): int
+        + howManyDifferent(): int
+        + howManyBooks(): int
+        + isEmpty(): bool
+        + removeDifferent(nb: int): Basket
+    }
+
+    class Discount {
+        + new(n: int, p: double)
+        + canBeApplied(b: Basket): bool
+        + apply(basePrice: double ): double
+        + removedPaidBooks(b: Basket): Basket
+    }
+
+    class Cashier {
+        - price: double
+        - discounts: Discount[]
+        + new(basePrice: int, discounts: Discount[])
+        + compute(b: Basket): double
+        + compute(b: Basket, Discount d): double
+        + findAvailableDiscount(b: Basket): Discount[]
+    }
+
+
+    Book -- Basket
+    
+    Basket -- Cashier
+    
+    Cashier .. Discount
+    
+    Basket .. Discount
 
 L'objectif ici est que vous preniez connaissance de l'impact qu'une bonne conception peut avoir sur le développement d'un logiciel: un problème qui semble complexe peut devenir presque trivial à résoudre une fois la bonne structure mise en place!
 
-Vous pouvez obtenir le code source à mettre à jour sur Github Classroom : https://github.com/INF5153-E20/Travaux
+Vous pouvez obtenir le code source à mettre à jour sur [Github Classroom](https://classroom.github.com/classrooms/64423452-inf5153-e20/assignments/travail-1).
 
 Pour remettre votre travail, il suffira de faire un push de vos modifications vers le github et je pourrai le récupérer à la date de remise.
+
+Assurez-vous que tous les tests unitaires passent avant de remettre votre travail!
 
 <br />
 
