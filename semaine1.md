@@ -4,7 +4,7 @@
 
 > _The most obvious proof that Devs are better than Wizards: Devs are often asked to perform magic. Wizards are never asked to write software._
 >
-> -- <cite>Michalis Famelis, professeur à l'UQAM</cite>
+> -- <cite>Michalis Famelis, professeur à l'UDM</cite>
 
 Jusqu'à maintenant, dans votre cheminement académique, vous avez appris à programmer et à analyser des logiciels (INF3135 et INF5151). Dans ce cours, nous allons voir différentes techniques qui vous permettront de développer des logiciels plus intelligemment.
 
@@ -446,6 +446,8 @@ La programmation orienté-objet est guidée par 5 principes de base qui peuvent 
 
 Nous verrons des applications de ces principes tout au long de la session et pourrons discuter de leur raison d'être.
 
+    Fécilitations! Si vous lisez ceci, c'est que vous avez bien lu les notes de cours de la première semaine! Je vous invite à m'envoyer un message privé sur Mattermost avec votre matricule étudiant (code permanent) et le mot clé "SOLID" pour obtenir un 5% bonus à votre premier travail!
+
 #### Test Unitaires
 
 > _A good programmer looks both ways before crossing a one-way street._  
@@ -593,83 +595,13 @@ Il existe certains langages, comme PlantUML, qui facilitent la création de diag
         end
     deactivate L
 
-## Section 5 - Harry Potter (Code Kata)
+## Mot de la fin
 
-Pour terminer cette première semaine, voici un petit projet à compléter sur un problème commun lorsqu'on conceptualise des systèmes de vente.
+Voici qui conclu l'introduction au cours. Les concepts abordés cette semaine seront repris et explorés en détails durant tout le cours de la session.
 
-#### Spécifications
+La semaine prochaine, nous aborderons les principes d'encapsulation, types et interfaces.
 
-Les 5 premiers livres de la saga Harry Potter sont à vendre dans une librairie. Chaque livre coûte 8$. La librairie applique certaines politiques de rabais en fonction du total des achats qui sont faits :
+Le première partie du travail 1 est présentement disponible sur le ![Github du cours](https://github.com/INF5153-E20/Notes/blob/master/travail1.md). La partie 2 sera disponible à partir de la semaine prochaine. Je vous conseille de ne pas tarder avant de commencer les travaux pour éviter de vous retrouver avec trop de travail à faire en même temps à la mi-session!
 
-* 2 livres différents : 5%
-* 3 livres différents : 10%
-* 4 livres différents : 20% 
-* 5 livres différents : 25%
-
-Il faut concevoir un programme qui reçoit en entrée une liste de livres et qui retourne le prix total incluant les rabais applicables.
-
-![](resources/semaine1_hp_calcul.png)
-
-Attention par contre, un rabais peut s'appliquer plus d'une fois sur la même liste d'articles!
-
-![](resources/semaine1_hp_piege.png)
-
-#### À faire
-
-Heureusement, nous avons déjà conçu la structure du programme en classe durant la première séance. Tout ce qui vous reste à faire est à implémenter les méthodes manquantes pour que tout fonctionne. 
-
-Voici le graphe UML de la structure montée en classe :
-
-![](resources/semaine1_hp_uml.png)
-
-    class Book {
-        - bookNb: int
-        + new(nb: int)
-        + equals(o: Object)
-    }
-
-    class Basket {
-        + new(books: Book[])
-        + howMany(b: Book): int
-        + howManyDifferent(): int
-        + howManyBooks(): int
-        + isEmpty(): bool
-        + removeDifferent(nb: int): Basket
-    }
-
-    class Discount {
-        + new(n: int, p: double)
-        + canBeApplied(b: Basket): bool
-        + apply(basePrice: double ): double
-        + removedPaidBooks(b: Basket): Basket
-    }
-
-    class Cashier {
-        - price: double
-        - discounts: Discount[]
-        + new(basePrice: int, discounts: Discount[])
-        + compute(b: Basket): double
-        + compute(b: Basket, Discount d): double
-        + findAvailableDiscount(b: Basket): Discount[]
-    }
-
-
-    Book -- Basket
-    
-    Basket -- Cashier
-    
-    Cashier .. Discount
-    
-    Basket .. Discount
-
-L'objectif ici est que vous preniez connaissance de l'impact qu'une bonne conception peut avoir sur le développement d'un logiciel: un problème qui semble complexe peut devenir presque trivial à résoudre une fois la bonne structure mise en place!
-
-Vous pouvez obtenir le code source à mettre à jour sur [Github Classroom](https://classroom.github.com/classrooms/64423452-inf5153-e20/assignments/travail-1).
-
-Pour remettre votre travail, il suffira de faire un push de vos modifications vers le github et je pourrai le récupérer à la date de remise.
-
-Assurez-vous que tous les tests unitaires passent avant de remettre votre travail!
-
-<br />
 
 Bonne chance et à la semaine prochaine!

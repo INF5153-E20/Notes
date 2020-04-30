@@ -60,23 +60,11 @@ Les notes de cours seront mises à disposition au fur et à mesure sur le [Githu
 <td>06-15</td>
 <td>
 
-[Travail 1 - Code Kata : Harry Potter](https://classroom.github.com/classrooms/64423452-inf5153-e20/assignments/travail-1)
+Travail 1
 
 </td>
-<td>Comprendre l'utilité de la conception</td>
-<td>5%</td>
-</tr>
-
-<tr>
-<td>05-11</td>
-<td>06-15</td>
-<td>
-
-Travail 2 - Poker
-
-</td>
-<td>Gérer du code légataire</td>
-<td>15%</td>
+<td>Comprendre l'utilité de la conception et gérer du code légataire.</td>
+<td>20%</td>
 </tr>
 
 <tr>
@@ -84,23 +72,11 @@ Travail 2 - Poker
 <td>08-10</td>
 <td>
 
-Travail 3
+Travail 2
 
 </td>
-<td>Utiliser les patrons de conception</td>
-<td>10%</td>
-</tr>
-
-<tr>
-<td>07-20</td>
-<td>08-10</td>
-<td>
-
-Travail 4
-
-</td>
-<td>Expérimenter avec des principes avancés</td>
-<td>20%</td>
+<td>Utiliser les patrons de conception et expérimenter avec des concepts avancés</td>
+<td>30%</td>
 </tr>
 
 <tr>
@@ -174,7 +150,7 @@ Les travaux et projets sont placés de façon à balancer la charge de travail a
 </td>
 <td>
 
-[Travail 1 - Code Kata : Harry Potter](https://classroom.github.com/classrooms/64423452-inf5153-e20/assignments/travail-1)
+Travail 1 - [Code Kata : Harry Potter](https://classroom.github.com/a/jNioVm29)
 
 </td>
 </tr>
@@ -189,7 +165,7 @@ Encapsulation, Types et Interfaces
 </td>
 <td>
 
-Travail 2 - Poker
+Travail 1 - Poker
 
 </td>
 </tr>
@@ -252,7 +228,7 @@ Séance de travail
 </td>
 <td>
 
-Remise des travaux 1 et 2
+Remise du travail 1
 
 </td>
 </tr>
@@ -308,7 +284,7 @@ Patrons de conception (maître)
 </td>
 <td>
 
-Travail 3
+Travail 2
 
 </td>
 </tr>
@@ -322,9 +298,6 @@ Travail 3
 
 </td>
 <td>
-
-Travail 4
-
 </td>
 </tr>
 
@@ -366,7 +339,7 @@ Séance de travail
 </td>
 <td>
 
-Remise des travaux 3 et 4
+Remise travail 2
 
 </td>
 </tr>
