@@ -140,6 +140,9 @@ Les travaux et projets sont placés de façon à balancer la charge de travail a
 **Travail**
 
 </td>
+<td>
+Séance de cours
+</td>
 <tr>
 <td>1</td>
 <td>2020-05-04</td>
@@ -152,6 +155,9 @@ Les travaux et projets sont placés de façon à balancer la charge de travail a
 
 [Travail 1](https://github.com/INF5153-E20/Notes/blob/master/travail1.md) - [Code Kata : Harry Potter](https://classroom.github.com/a/jNioVm29)
 
+</td>
+<td>
+[Vidéo](https://youtu.be/OTYOhm_Fwr8)
 </td>
 </tr>
 
