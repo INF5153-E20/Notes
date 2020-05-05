@@ -157,7 +157,9 @@ Séance de cours
 
 </td>
 <td>
+
 [Vidéo](https://youtu.be/OTYOhm_Fwr8)
+
 </td>
 </tr>
 
