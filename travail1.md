@@ -84,7 +84,7 @@ L'objectif ici est que vous preniez connaissance de l'impact qu'une bonne concep
 
 Vous pouvez obtenir le code source à mettre à jour sur GitHub Classroom en utilisant le lien suivant : [https://classroom.github.com/a/jNioVm29](https://classroom.github.com/a/jNioVm29).
 
-### Partie 2 - Poker
+## Partie 2 - Poker
 
 En deuxième partie, vous aurez à restructurer (_refactor_) du code légataire dans une mise en situation. Le programme en question est un algorithme pour analyser les mains de Poker.
 
