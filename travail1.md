@@ -92,10 +92,10 @@ En deuxième partie, vous aurez à restructurer (_refactor_) du code légataire 
 
 L'algorithme prend en entrée une chaîne de caractères représentant une main de 5 cartes encodées sous la forme suivante :
 
-Valeurs : 1 2 3 4 5 6 7 8 9 T J Q K  
+Valeurs : A 2 3 4 5 6 7 8 9 T J Q K  
 Suites : H D S C
 
-Exemple de main : _1S 4C TD QC 4C_
+Exemple de main : _AS 4C TD QC 4C_
 
 L'algorithme retourne ensuite le type de main en tant que valeur de l'énumération Java suivante :
 
@@ -137,7 +137,7 @@ En plus des mains présentées ci-haut, le code devra aussi détecter la possibi
 
 | Valeur     | Nom                 | Description                        |
 | ---        | ---                 | ---                                |
-| RoyalFlush | Quinte flush royale | T, J, Q, K, et 1 de la même suite. |
+| RoyalFlush | Quinte flush royale | T, J, Q, K, et A de la même suite. |
 
 Cette main a une valeur supérieure à toutes les autres et doit donc être priorisée.
 
