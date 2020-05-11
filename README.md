@@ -168,12 +168,12 @@ Séance de cours
 <td>2020-05-11</td>
 <td>
 
-Encapsulation, Types et Interfaces
+[Encapsulation, Types et Interfaces](https://github.com/INF5153-E20/Notes/blob/master/semaine2.md)
 
 </td>
 <td>
 
-[Travail 1](https://github.com/INF5153-E20/Notes/blob/master/travail1.md) - Poker
+[Travail 1](https://github.com/INF5153-E20/Notes/blob/master/travail1.md) - [Poker](https://classroom.github.com/a/88qxfXhT)
 
 </td>
 </tr>
