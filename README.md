@@ -153,7 +153,7 @@ Séance de cours
 </td>
 <td>
 
-[Travail 1](https://github.com/INF5153-E20/Notes/blob/master/travail1.md) - [Code Kata : Harry Potter](https://classroom.github.com/a/jNioVm29)
+[Travail 1](https://github.com/INF5153-E20/Notes/blob/master/travail1.md#partie-1---harry-potter-code-kata) - [Code Kata : Harry Potter](https://classroom.github.com/a/jNioVm29)
 
 </td>
 <td>
@@ -173,7 +173,13 @@ Séance de cours
 </td>
 <td>
 
-[Travail 1](https://github.com/INF5153-E20/Notes/blob/master/travail1.md) - [Poker](https://classroom.github.com/a/88qxfXhT)
+[Travail 1](https://github.com/INF5153-E20/Notes/blob/master/travail1.md#partie-2---poker) - [Poker](https://classroom.github.com/a/88qxfXhT)
+
+</td>
+
+<td>
+
+[Vidéo](https://youtu.be/W9JHCztWDDM)
 
 </td>
 </tr>
