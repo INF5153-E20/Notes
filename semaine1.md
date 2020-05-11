@@ -446,8 +446,6 @@ La programmation orienté-objet est guidée par 5 principes de base qui peuvent 
 
 Nous verrons des applications de ces principes tout au long de la session et pourrons discuter de leur raison d'être.
 
-    Fécilitations! Si vous lisez ceci, c'est que vous avez bien lu les notes de cours de la première semaine! Je vous invite à m'envoyer un message privé sur Mattermost avec votre matricule étudiant (code permanent) et le mot clé "SOLID" pour obtenir un 5% bonus à votre premier travail!
-
 #### Test Unitaires
 
 > _A good programmer looks both ways before crossing a one-way street._  

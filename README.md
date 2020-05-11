@@ -183,7 +183,7 @@ Encapsulation, Types et Interfaces
 <td>2020-05-18</td>
 <td>
 
-Composition _versus_ Héritage, Tests
+Congé férié
 
 </td>
 <td></td>
@@ -194,7 +194,7 @@ Composition _versus_ Héritage, Tests
 <td>2020-05-25</td>
 <td>
 
-Principes de conception (GRASP, SOLID)
+Composition _versus_ Héritage, Tests
 
 </td>
 <td></td>
@@ -205,7 +205,7 @@ Principes de conception (GRASP, SOLID)
 <td>2020-06-01</td>
 <td>
 
-Étude de cas _Jeu de Dés_
+Principes de conception (GRASP, SOLID)
 
 </td>
 <td>
@@ -220,7 +220,7 @@ Projet de session - Phase 1
 <td>2020-06-08</td>
 <td>
 
-Intro aux Patrons de Conception (padawan)
+Étude de cas _Jeu de Dés_
 
 </td>
 <td></td>
@@ -246,7 +246,7 @@ Remise du travail 1
 <td>2020-06-22</td>
 <td>
 
-Étude de cas
+Intro aux Patrons de Conception (padawan)
 
 </td>
 <td></td>
