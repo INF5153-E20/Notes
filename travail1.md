@@ -114,17 +114,17 @@ L'algorithme retourne ensuite le type de main en tant que valeur de l'énumérat
     
 Voici une courte explication de chaque main, de la plus faible à la plus forte. Dans le cas où plusieurs types de main s'applique, l'algorithme retourne toujours la plus forte.
 
-| Valeur        | Nom                 | Description                                          |
-| ---           | ---                 | ---                                                  |
-| HighCard      | Carte haute         | Aucune autre main visible.                           |
-| Pair          | Paire               | Deux cartes identiques (même valeur et suite).       |
-| TwoPair       | Deux paires         | Deux paires différentes.                             |
-| ThreeOfAKind  | Brelan              | Trois cartes identiques.                             |
-| Straight      | Suite               | Cinq cartes de valeurs successives (e.g. 8-9-T-J-Q). |
-| Flush         | Couleur             | Cinq cartes de la même suite.                        |
-| FullHouse     | Main pleine         | Un brelan et une paire.                              |
-| FourOfAKind   | Carré               | Quatre cartes identiques.                            |
-| StraightFlush | Quinte flush        | Cinq cartes de valeurs successives de la même suite. |
+| Valeur        | Nom          | Description                                          |
+| ---           | ---          | ---                                                  |
+| HighCard      | Carte haute  | Aucune autre main visible.                           |
+| Pair          | Paire        | Deux cartes de même valeur.                          |
+| TwoPair       | Deux paires  | Deux paires différentes.                             |
+| ThreeOfAKind  | Brelan       | Trois cartes identiques.                             |
+| Straight      | Suite        | Cinq cartes de valeurs successives (e.g. 8-9-T-J-Q). |
+| Flush         | Couleur      | Cinq cartes de la même suite.                        |
+| FullHouse     | Main pleine  | Un brelan et une paire.                              |
+| FourOfAKind   | Carré        | Quatre cartes identiques.                            |
+| StraightFlush | Quinte flush | Cinq cartes de valeurs successives de la même suite. |
 
 
 ### À faire
@@ -145,7 +145,7 @@ Cette main a une valeur supérieure à toutes les autres et doit donc être prio
 
 En second lieu, l'algorithme devra maintenant permettre d'ajouter jusqu'à deux jokers dans une main. Un joker (représenté par l'encodage JK) prend la valeur et la suite de façon à ce que la main ait la valeur la plus élevée possible.
 
-Par exemple, la main _8S JK 6S 5S 4S_ verra le joker prendre la valeur _7S_, car cela compléterait une quinte flush. De même, la main _AH JK JK 4S 7H_ verra les deux jokers prendre la valeur _AH_ (ou _4S_ ou _6H_) pour donner un brelan.
+Par exemple, la main _8S JK 6S 5S 4S_ verra le joker prendre la valeur _7S_, car cela compléterait une quinte flush. De même, la main _AH JK JK 4S 7H_ verra les deux jokers prendre la valeur _A_ (ou _4_ ou _6_) pour donner un brelan.
 
 #### Récupération du code
 
