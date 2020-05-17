@@ -147,6 +147,8 @@ En second lieu, l'algorithme devra maintenant permettre d'ajouter jusqu'à deux 
 
 Par exemple, la main _8S JK 6S 5S 4S_ verra le joker prendre la valeur _7S_, car cela compléterait une quinte flush. De même, la main _AH JK JK 4S 7H_ verra les deux jokers prendre la valeur _A_ (ou _4_ ou _6_) pour donner un brelan.
 
+**Comme plusieurs d'entre vous l'ont remarqué, il y a une erreur dans les tests unitaires de la solution fournie. Il est impossible pour une main avec un joker de donner une combinaison de deux paires. En effet, la combinaison _4C 4S JK 3D QC_ donnera un brelan de _4_, et non deux paires comme le test le suggère. Vous pouvez donc retirer le test (ou le modifier pour qu'il devienne un test de brelan avec joker).**
+
 #### Récupération du code
 
 Vous pouvez obtenir le code source à mettre à jour sur GitHub Classroom en utilisant le lien suivant : [https://classroom.github.com/a/88qxfXhT](https://classroom.github.com/a/88qxfXhT).
