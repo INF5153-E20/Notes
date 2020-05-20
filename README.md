@@ -11,8 +11,8 @@
   * Cours : Lundi, 09h30 - 12h30, Zoom
   * Atelier : Mercredi, 09h30 - 11h30, Zoom
 * Communication :
-  * [Mattermost](https://mattermost.info.uqam.ca/inf5153-20202/)
-  * [Courriel]() (À éviter)
+  * [Mattermost](https://mattermost.info.uqam.ca/signup_user_complete/?id=5447kiysffrw9cz5qek9irjohh)
+  * [Courriel](flageol.william@uqam.ca) (À éviter)
 
 ### Objectif du cours
 
