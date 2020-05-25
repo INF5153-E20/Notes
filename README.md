@@ -200,7 +200,7 @@ Congé férié
 <td>2020-05-25</td>
 <td>
 
-Composition _versus_ Héritage, Tests
+[Composition _versus_ Héritage, Tests](https://github.com/INF5153-E20/Notes/blob/master/semaine4.md)
 
 </td>
 <td></td>
@@ -211,7 +211,7 @@ Composition _versus_ Héritage, Tests
 <td>2020-06-01</td>
 <td>
 
-[Principes de conception (GRASP, SOLID)](https://github.com/INF5153-E20/Notes/blob/master/semaine4.md)
+Principes de conception (GRASP, SOLID)
 
 </td>
 <td>
