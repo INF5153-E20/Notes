@@ -216,12 +216,12 @@ Congé férié
 <td>2020-06-01</td>
 <td>
 
-Principes de conception (GRASP, SOLID)
+[Principes de conception (GRASP, SOLID)](https://github.com/INF5153-E20/Notes/blob/master/semaine5.md)
 
 </td>
 <td>
 
-Projet de session - Phase 1
+[Projet de session - Phase 1](https://github.com/INF5153-E20/Notes/blob/master/projet.md)
 
 </td>
 </tr>
