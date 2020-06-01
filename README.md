@@ -84,7 +84,7 @@ Travail 2
 <td>06-29</td>
 <td>
 
-Projet de session - Phase 1
+[Projet de session - Phase 1](https://github.com/INF5153-E20/Notes/blob/master/projet.md)
 
 </td>
 <td>Implémenter un logiciel de jeu non-trivial</td>
