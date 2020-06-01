@@ -224,6 +224,11 @@ Congé férié
 [Projet de session - Phase 1](https://github.com/INF5153-E20/Notes/blob/master/projet.md)
 
 </td>
+<td>
+
+[Vidéo](https://youtu.be/z8cY3mf_lsU)
+
+</td>
 </tr>
 
 <tr>
