@@ -28,7 +28,7 @@ Le fichier représente chaque action des joueurs à tour de rôle, commençant p
 
 ![](resources/projet_go.png)
 
-Chaque entrée est tuple de coordonnées : la colonne (A-J) suivi de la rangée (1-9). Un joueur peut aussi passer son tour (``PASS``).
+Chaque entrée est tuple de coordonnées : la colonne (A-J) suivi de la rangée (1-9). Un joueur peut aussi passer son tour (``PASS``). (La lettre _I_ est omise des colonnes dans la notation officielle pour éviter la confusion avec le chiffre _1_ et le _L_ minisucule.)
 
 Voici un deuxième exemple :
 
