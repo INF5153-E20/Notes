@@ -236,7 +236,7 @@ Congé férié
 <td>2020-06-08</td>
 <td>
 
-Étude de cas _Jeu de Dés_
+[Étude de cas _Jeu de Dés_](https://github.com/INF5153-E20/Notes/blob/master/etude1.md)
 
 </td>
 <td></td>
