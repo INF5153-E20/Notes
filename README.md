@@ -240,6 +240,11 @@ Congé férié
 
 </td>
 <td></td>
+<td>
+
+[Vidéo](https://youtu.be/GLGMm6fPFEY)
+
+</td>
 </tr>
 
 <tr>
