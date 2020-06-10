@@ -1,0 +1,118 @@
+@startuml
+
+class GameController {
+    -players: OrderedList<Player>
+    +startGame()
+    -beginTurn()
+    -movePlayer(Direction, int)
+    -executeAction(Action)
+}
+
+class GameConsoleView {
+    promptMove(List<Direction>, maxPower: int) : [Direction, int]
+    promptAction(List<Action>) : Action
+}
+
+GameController o-> Player
+GameController -> Board
+GameController --> GameConsoleView
+
+class Player {
+    -coins: int
+    +getCoins(): int
+    +gainCoins(int): void
+    +rollDice() : List<DieFace>
+}
+
+Player o-> Die
+
+class PlayerToken
+
+Player -> PlayerToken
+
+class Board {
+    +move(PlayerToken, Direction, int) : List<Action>
+}
+
+Board o--> PlayerToken
+
+interface Tile {
+    +getActions() : List<Action>
+}
+class BonusTile
+class MerchantTile
+class NormalTile
+class EndGameTile
+
+Tile <|-- BonusTile
+Tile <|-- MerchantTile
+Tile <|-- NormalTile
+Tile <|-- EndGameTile
+
+Board *--> Tile
+
+interface Direction {
+    getDirections(): List<CardinalDirection>
+}
+
+enum CardinalDirection {
+    North
+    West
+    South
+    East
+}
+
+class Diagonal
+
+Direction <|-- Diagonal
+Direction <|-- CardinalDirection
+Diagonal *-> "2" CardinalDirection
+
+class Die {
+    roll(): DieFace
+    Die(List<DieFace>)
+}
+
+abstract class DieFace {
+    getDirection(): Optional<Direction>
+    getPower(): int
+}
+class DirectionFace {
+    +getDirection(): Optional<Direction>
+}
+class PowerFace {
+    -power: int
+    +getPower(): int
+}
+
+Die o-> DieFace
+DieFace <|-- DirectionFace
+DieFace <|-- PowerFace
+DirectionFace -> Direction
+
+interface Action {
+    +execute(Player, Board) : boolean
+}
+class GainCoinsAction
+class LoseCoinsAction
+class StealCoinsAction {
+    -targetPlayer: Player
+}
+class BuyDieAction
+class SellDieAction
+class ReplaceFaceAction
+class DoNothingAction
+class EndGameAction
+
+Action <|-- GainCoinsAction
+Action <|-- LoseCoinsAction
+Action <|-- StealCoinsAction
+Action <|-- BuyDieAction
+Action <|-- SellDieAction
+Action <|-- ReplaceFaceAction
+Action <|-- DoNothingAction
+Action <|-- EndGameAction
+
+Tile -.-> Action
+
+@enduml
