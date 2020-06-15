@@ -267,7 +267,7 @@ Remise du travail 1
 <td>2020-06-22</td>
 <td>
 
-Intro aux Patrons de Conception (padawan)
+[Intro aux Patrons de Conception (padawan)](https://github.com/INF5153-E20/Notes/blob/master/semaine8.md)
 
 </td>
 <td></td>
