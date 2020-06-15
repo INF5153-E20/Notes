@@ -50,6 +50,14 @@ Je ne répondrai à aucune question concernant les règles du jeu ou les spécif
 
 Si vous rencontrez un problème et que vous devez faire un choix, l'approche que vous devez prendre est d'émettre une hypothèse. Par exemple, il n'est pas mention d'à quoi doit ressembler l'interface graphique. Vous allez donc devoir émettre une hypothèse sur la façon dont vous allez afficher les résultats du programme (e.g. on va utiliser un affichage console pour éviter de créer une dépendance à un système d'affichage GUI).
 
+## Ressources graphiques
+
+Pour ceux qui voudront faire une interface graphique plus avancée (ce n'est pas requis), voici quelques ressources qui pourront vous être utiles :
+
+![](resources/projet_go_vide.png)
+![](resources/projet_go_blanc.png)
+![](resources/projet_go_noir.png)
+
 ## Travail d'équipe
 
 Le travail est à réaliser en équipes de 4. Vos équipes sont normalement déjà formées. Si vous n'avez pas d'équipe, veuillez me le faire savoir au plus vite et je vous ajouterai à une équipe existante au hasard.
