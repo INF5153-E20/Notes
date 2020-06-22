@@ -1,0 +1,18 @@
+@startuml
+
+class NewSort {
+    sort(List<T>, Comparator<T>)
+}
+
+interface KeyGetter<T,K> {
+    getKey(T) : K
+}
+
+interface Comparer<K> {
+    compare(K v1, K v2) : int
+}
+
+NewSort -.-> Comparer
+NewSort -.-> KeyGetter
+
+@enduml
