@@ -270,6 +270,7 @@ Remise du travail 1
 [Intro aux Patrons de Conception (padawan)](https://github.com/INF5153-E20/Notes/blob/master/semaine8.md)
 
 </td>
+<td></td>
 <td>
 
 [Vidéo](https://youtu.be/8JAlF3uYmpQ)
