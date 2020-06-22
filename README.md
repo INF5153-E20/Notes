@@ -293,7 +293,7 @@ Présentation de la phase 1
 <td>2020-07-06</td>
 <td>
 
-Patrons de conception (chevalier)
+[Patrons de conception (chevalier)](https://github.com/INF5153-E20/Notes/blob/master/semaine10.md)
 
 </td>
 <td>
