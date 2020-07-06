@@ -1,0 +1,44 @@
+@startuml
+
+class Main {
+    +main()
+}
+
+class CreateBuffer {
+    +create(): List<String>
+}
+
+class ReadData {
+    +read(List<String>)
+}
+
+class OutputData {
+    +output(List<String>)
+}
+
+Main --> ReadData
+Main --> OutputData
+Main --> CreateBuffer
+
+interface List
+class Vector
+
+List <|- Vector
+
+CreateBuffer --> Vector
+
+class NotifyList {
+    +attach(ListObserver)
+    +detach(ListObserver)
+    -notify()
+}
+
+interface ListObserver<T> {
+    +update(T)
+}
+
+List <|-- NotifyList
+NotifyList -> List
+NotifyList *-> ListObserver
+
+@enduml
