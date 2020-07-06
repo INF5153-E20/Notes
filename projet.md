@@ -7,6 +7,8 @@ Voici les spécifications que vous pouvez utiliser : [https://fr.wikibooks.org/w
 
 Si vous ne connaissez pas du tout ce jeu et vous préféreriez l'apprendre en y jouant, voici un tutoriel interactif qui vous donnera les bases : [https://online-go.com/learn-to-play-go](https://online-go.com/learn-to-play-go).
 
+# Phase 1
+
 ## Spécifications
 
 Pour faciliter l'évaluation, voici quelques spécifications à considérer dans votre travail :
@@ -84,6 +86,39 @@ Votre présentation devra démontrer le bon fonctionnement de votre logiciel en 
 ## Remise des travaux
 
 La présentation du cours 9 sera la base de votre évaluation, mais vous devez tout de même remettre votre code sur votre dépôt Git avant la fin de la date de remise pour que je puisse le vérifier si nécessaire.
+
+# Phase 2
+
+En deuxième phase du projet, vous devrez étendre votre logiciel en lui ajouter de nouvelles fonctionalités ainsi qu'une suite de tests unitaires automatisés.
+
+## Spécifications
+
+Voici les fonctionalités que vous devrez ajouter :
+
+* Une fois le fichier d'entrée chargé, la partie de Go doit pouvoir être continuée. 
+  * Vous devrez créer une interface utilisateur permettant de déposer des pierres.
+  * Vous devrez gérer les jeux illégaux (intersection déjà occupée, coordonnées en dehors du plateau, règle de _ko_, etc.)
+  * La partie se termine lorsque les deux joueurs passent leur tour.
+* Votre code devra faire usage de trois (3) patrons de conceptions GoF différents, tels que vu dans les notes de cours et en classe.
+* Votre application devra contenir une suite de tests unitaires permettant de démontrer le bon fonctionnement des nouvelles fonctionalités ci-dessus.
+  * Ces tests doivent s'exécuter de façon automatique (e.g. en utilisant JUnit).
+  
+## Grille de correction
+
+Comme pour la première phase, la correction du travail se fera sous la forme d'une présentation de 15 minutes que vous devrez préparer. Le cours 14 est réservé pour ces présentations.
+
+Vous devrez présenter les nouvelles fonctionalités dans une démonstration de votre application (la façon de procéder est laissée à votre choix). Vous devrez aussi montrer les patrons de conceptions GoF que vous avez implémentés dans votre code et expliquer vos décisions de conception. Finalement, vous devrez montrer les tests unitaires que vous avez implémentés et démontrer leur bon fonctionnement.
+
+| Critère                                    | Poids |
+| ---                                        | ---   |
+| Nouvelles fonctionalités                   | 30%   |
+| Interface utilisateur conviviale           | 10%   |
+| Patrons de conception GoF (10% par patron) | 30%   |
+| Complétion des tests unitaires             | 30%   |
+
+## Remise des travaux
+
+La date finale pour la remise du code de votre projet sur GitHub (i.e. votre dernier _push_) est le 3 aout 2020 avant le début des présentations (donc 9:30).
 
 
 Bonne chance!

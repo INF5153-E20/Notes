@@ -96,7 +96,7 @@ Travail 2
 <td>08-03</td>
 <td>
 
-Projet de session - Phase 2
+[Projet de session - Phase 2](https://github.com/INF5153-E20/Notes/blob/master/projet.md)
 
 </td>
 <td>Appliquer un changement majeur à un logiciel</td>
@@ -313,7 +313,7 @@ Projet de session - Phase 2
 <td>2020-07-13</td>
 <td>
 
-Patrons de conception (maître)
+[Patrons de conception (maître)](https://github.com/INF5153-E20/Notes/blob/master/semaine11.md)
 
 </td>
 <td>
