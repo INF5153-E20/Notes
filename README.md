@@ -96,7 +96,7 @@ Travail 2
 <td>08-03</td>
 <td>
 
-[Projet de session - Phase 2](https://github.com/INF5153-E20/Notes/blob/master/projet.md)
+[Projet de session - Phase 2](https://github.com/INF5153-E20/Notes/blob/master/projet.md#phase-2)
 
 </td>
 <td>Appliquer un changement majeur à un logiciel</td>
