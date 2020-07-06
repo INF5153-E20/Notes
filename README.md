@@ -306,6 +306,11 @@ Présentation de la phase 1
 Projet de session - Phase 2
 
 </td>
+<td>
+
+[Vidéo](https://youtu.be/mUza2mZgGHE)
+
+</td>
 </tr>
 
 <tr>
