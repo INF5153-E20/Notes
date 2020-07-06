@@ -99,6 +99,7 @@ Voici les fonctionalités que vous devrez ajouter :
   * Vous devrez créer une interface utilisateur permettant de déposer des pierres.
   * Vous devrez gérer les jeux illégaux (intersection déjà occupée, coordonnées en dehors du plateau, règle de _ko_, etc.)
   * La partie se termine lorsque les deux joueurs passent leur tour.
+  * Lorsque la partie est terminée, vous devrez afficher les points totaux des deux joueurs et déterminer le gagnant.
 * Votre code devra faire usage de trois (3) patrons de conceptions GoF différents, tels que vu dans les notes de cours et en classe.
 * Votre application devra contenir une suite de tests unitaires permettant de démontrer le bon fonctionnement des nouvelles fonctionalités ci-dessus.
   * Ces tests doivent s'exécuter de façon automatique (e.g. en utilisant JUnit).
