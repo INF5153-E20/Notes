@@ -323,7 +323,7 @@ Projet de session - Phase 2
 </td>
 <td>
 
-Travail 2
+[Travail 2](https://github.com/INF5153-E20/Notes/blob/master/travail2.md)
 
 </td>
 </tr>
