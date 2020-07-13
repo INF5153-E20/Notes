@@ -1,0 +1,41 @@
+@startuml
+
+class File {
+    name: String
+    size: Int
+    creationDate: Date
+    ...
+}
+
+class Folder {
+    name: String
+    creationDate: Date
+    ...
+}
+
+interface FileSystemElement
+
+FileSystemElement <|-- File
+FileSystemElement <|-- Folder
+Folder *--> FileSystemElement
+
+interface Visitable {
+    accept(Visitor)
+}
+
+interface Visitor {
+    visit(File)
+    visit(Folder)
+}
+
+class ListVisitor
+class DeleteVisitor
+
+Visitor <|-- ListVisitor
+Visitor <|-- DeleteVisitor
+Visitable <|-- FileSystemElement
+Visitable -.-> Visitor
+Visitor -.-> File
+Visitor -.-> Folder
+
+@enduml
