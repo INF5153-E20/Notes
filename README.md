@@ -72,7 +72,7 @@ Les notes de cours seront mises à disposition au fur et à mesure sur le [Githu
 <td>08-10</td>
 <td>
 
-Travail 2
+[Travail 2](https://github.com/INF5153-E20/Notes/blob/master/travail2.md)
 
 </td>
 <td>Utiliser les patrons de conception et expérimenter avec des concepts avancés</td>
