@@ -326,6 +326,11 @@ Projet de session - Phase 2
 [Travail 2](https://github.com/INF5153-E20/Notes/blob/master/travail2.md)
 
 </td>
+<td>
+
+[Vidéo](https://youtu.be/4fEmct-29_Q)
+
+</td>
 </tr>
 
 <tr>
