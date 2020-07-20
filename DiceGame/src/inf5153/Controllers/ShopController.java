@@ -6,6 +6,7 @@ import inf5153.Rules.Dice.DieFace;
 import inf5153.Rules.Dice.DirectionFace;
 import inf5153.Rules.Dice.PowerFace;
 import inf5153.Rules.Player;
+import inf5153.Views.GameConsoleInterface;
 import inf5153.Views.GameConsoleView;
 
 import java.util.stream.Collectors;
@@ -14,9 +15,9 @@ import java.util.stream.Stream;
 import java.util.List;
 
 public class ShopController {
-    private GameConsoleView view;
+    private GameConsoleInterface view;
 
-    public ShopController(GameConsoleView view) {
+    public ShopController(GameConsoleInterface view) {
         this.view = view;
     }
 

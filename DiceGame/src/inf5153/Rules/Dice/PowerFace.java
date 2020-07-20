@@ -22,6 +22,6 @@ public class PowerFace extends DieFace {
 
     @Override
     public String toString() {
-        return String.format("%d", power);
+        return String.format("Face: %d", power);
     }
 }

@@ -4,12 +4,13 @@ import inf5153.Directions.CardinalDirection;
 import inf5153.Directions.Diagonal;
 import inf5153.Directions.Direction;
 import inf5153.Rules.Actions.Action;
-import inf5153.Rules.Board;
+import inf5153.Rules.BoardInterface;
 import inf5153.Rules.Dice.Die;
 import inf5153.Rules.Dice.DieFace;
 import inf5153.Rules.Dice.DirectionFace;
 import inf5153.Rules.Dice.PowerFace;
 import inf5153.Rules.Player;
+import inf5153.Views.GameConsoleInterface;
 import inf5153.Views.GameConsoleView;
 
 import java.util.List;
@@ -21,12 +22,18 @@ import java.util.stream.Stream;
 /**
  * Created by wflag on 2020-06-08.
  */
-public class GameController {
-    private GameConsoleView view = new GameConsoleView();
+public class GameController implements GameInterface {
     private List<Player> players;
-    private Board board = new Board();
+    private BoardInterface board;
     private Player currentPlayer;
-    private ShopController shopController = new ShopController(view);
+    private GameConsoleInterface view;
+    private ShopController shopController;
+
+    public GameController(BoardInterface board, GameConsoleInterface console) {
+        this.board = board;
+        this.view = console;
+        this.shopController = new ShopController(view);
+    }
 
     public Player getCurrentPlayer() {
         return currentPlayer;
@@ -125,7 +132,7 @@ public class GameController {
         return view.promptDistance(power);
     }
 
-    private List<Action> movePlayer(Player p, List<DieFace> rollResults) {
+    protected List<Action> movePlayer(Player p, List<DieFace> rollResults) {
         while(true) {
             view.printPlayer(p);
 

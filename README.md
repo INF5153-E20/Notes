@@ -338,11 +338,18 @@ Projet de session - Phase 2
 <td>2020-07-20</td>
 <td>
 
-Étude de cas
+Tests unitaires
 
 </td>
 <td>
 </td>
+
+<td>
+
+[Vidéo](https://youtu.be/4LBs4_Af0hY)
+
+</td>
+
 </tr>
 
 <tr>
@@ -350,7 +357,7 @@ Projet de session - Phase 2
 <td>2020-07-27</td>
 <td>
 
-Code as a crime scene
+Étude de cas
 
 </td>
 <td>

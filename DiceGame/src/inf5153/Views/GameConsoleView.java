@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class GameConsoleView {
+public class GameConsoleView implements GameConsoleInterface {
     private Scanner scanner = new Scanner(System.in);
 
     private <T> Optional<T> prompt (String prompt, List<T> elements) {
@@ -56,10 +56,12 @@ public class GameConsoleView {
         }
     }
 
+    @Override
     public int promptNumberOfPlayers(int max) {
         return promptNumber("Choose a number of players.", 2, max);
     }
 
+    @Override
     public void printPlayer(Player p) {
         System.out.println("----------");
         System.out.println(p);
@@ -68,10 +70,12 @@ public class GameConsoleView {
         System.out.println("----------");
     }
 
+    @Override
     public void printFace(DieFace f) {
         System.out.println(String.format("Rolled: %s", f));
     }
 
+    @Override
     public void printGrid(String[][] printedGrid) {
         for(int y = 0; y < printedGrid.length; y++) {
             for(int x = 0; x < printedGrid[y].length; x++)
@@ -80,34 +84,42 @@ public class GameConsoleView {
         }
     }
 
+    @Override
     public Optional<Direction> promptDirection(List<Direction> directions) {
         return prompt("Choose a direction.", directions);
     }
 
+    @Override
     public Optional<Action> promptAction(List<Action> actions) {
         return prompt("Choose an action.", actions);
     }
 
+    @Override
     public int promptDistance(int maxPower) {
         return promptNumber("Choose a distance.", 0, maxPower);
     }
 
+    @Override
     public int promptDieSize(List<Integer> dieSizes) {
         return prompt("Choose a die size.", dieSizes).orElse(0);
     }
 
+    @Override
     public Optional<Die> promptSellDie(List<Die> dice) {
         return prompt("Choose a die to sell.", dice);
     }
 
+    @Override
     public Optional<DieFace> promptNewDieFace(List<DieFace> faces) {
         return prompt("Choose a new die face.", faces);
     }
 
+    @Override
     public Optional<DieFace> promptReplaceDieFace(List<DieFace> faces) {
         return prompt("Choose a die face to replace.", faces);
     }
 
+    @Override
     public void declareWinner(Player p) {
         if(p != null)
             System.out.println(String.format("%d is the winner!", p));

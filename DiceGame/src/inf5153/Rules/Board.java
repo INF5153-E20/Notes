@@ -10,12 +10,13 @@ import java.util.stream.Stream;
 /**
  * Created by wflag on 2020-06-08.
  */
-public class Board {
+public class Board implements BoardInterface {
     private Random rand = new Random();
 
     private Tile[][] grid;
     private List<Player> players = new ArrayList<>();
 
+    @Override
     public void init(List<Player> players) {
         grid = new Tile[50][50];
 
@@ -67,6 +68,7 @@ public class Board {
         }
     }
 
+    @Override
     public Stream<Action> move(Player token, Direction direction, int distance) {
         Coordinates newPos = token.getPosition().applyMove(direction, distance);
         if(newPos.isValid()) {
@@ -86,19 +88,5 @@ public class Board {
         int coins = target.getCoins() / 2;
         current.gainCoins(coins);
         target.gainCoins(-coins);
-    }
-
-    public String[][] print() {
-        String[][] printedGrid = new String[50][50];
-
-        for(int y = 0; y < 50; y++) {
-            for(int x = 0; x < 50; x++)
-                printedGrid[y][x] = grid[y][x].toString();
-        }
-
-        players.forEach(p ->
-                printedGrid[p.getPosition().getY()][p.getPosition().getX()] = String.format("%d", p.getNumber()));
-
-        return printedGrid;
     }
 }
