@@ -1,0 +1,29 @@
+@startuml
+
+abstract class Expression {
+    accept(ExpressionVisitor)
+}
+
+class ListExpression
+class LiteralExpression {
+    value: String
+}
+
+Expression <|-- ListExpression
+Expression <|-- LiteralExpression
+ListExpression *--> Expression
+
+interface ExpressionVisitor {
+    visit(ListExpression)
+    visit(LiteralExpression)
+}
+
+class EvalVisitor
+
+ExpressionVisitor <|-- EvalVisitor
+
+class ExpressionReader {
+    read(String): Expression
+}
+
+@enduml
